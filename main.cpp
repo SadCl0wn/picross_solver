@@ -1,7 +1,7 @@
 #include "./solver.h"
 #include <string>
-#include <iostream>
 #include <fstream>
+#include <iostream>
 
 using namespace std;
 
@@ -23,7 +23,7 @@ char **loadData(string s)
             res[i][j] = 255;
         }
     }
-
+    
     f_matrix.close();
 }
 
